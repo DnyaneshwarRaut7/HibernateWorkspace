@@ -1,0 +1,57 @@
+package com.hibernate;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "EmpData")
+
+public class Employee {
+
+	@Id
+	private int eid;
+	@Column(name = "Empname")
+	private String ename;
+	private String eaddress;
+	private double sallary;
+
+	public int getEid() {
+		return eid;
+	}
+
+	public void setEid(int eid) {
+		this.eid = eid;
+	}
+
+	public String getEname() {
+		return ename;
+	}
+
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+
+	public String getEaddress() {
+		return eaddress;
+	}
+
+	public void setEaddress(String eaddress) {
+		this.eaddress = eaddress;
+	}
+
+	public double getSallary() {
+		return sallary;
+	}
+
+	public void setSallary(double sallary) {
+		this.sallary = sallary;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [eid=" + eid + ", ename=" + ename + ", eaddress=" + eaddress + ", sallary=" + sallary + "]";
+	}
+
+}

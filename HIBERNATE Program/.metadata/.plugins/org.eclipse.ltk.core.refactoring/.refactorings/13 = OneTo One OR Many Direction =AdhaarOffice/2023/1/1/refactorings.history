@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.Service.ServviceI&apos; to &apos;ServiceI&apos;&#x0D;&#x0A;- Original project: &apos;13 = OneTo One OR Many Direction&apos;&#x0D;&#x0A;- Original element: &apos;com.Service.ServviceI&apos;&#x0D;&#x0A;- Renamed element: &apos;com.Service.ServiceI&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ServviceI&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.Service{ServviceI.java[ServviceI" matchStrategy="1" name="ServiceI" qualified="false" references="true" similarDeclarations="false" stamp="1672566520514" textual="false" version="1.0"/>
+</session>

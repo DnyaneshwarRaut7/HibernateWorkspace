@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Hibernate[1-ST Level Cache = Get &amp; Load Method]Example&apos; to &apos;9 = Hibernate[1-ST Level Cache = Get &amp; Load Method]Example&apos;&#x0D;&#x0A;- Original element: &apos;Hibernate[1-ST Level Cache = Get &amp; Load Method]Example&apos;&#x0D;&#x0A;- Renamed element: &apos;Hibernate[1-ST Level Cache = Get &amp; Load Method]Example&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Hibernate[1-ST Level Cache = Get &amp; Load Method]Example&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Hibernate\[1-ST Level Cache \= Get &amp; Load Method\]Example" name="9 = Hibernate[1-ST Level Cache = Get &amp; Load Method]Example" references="true" stamp="1672198326488" version="1.0"/>
+</session>

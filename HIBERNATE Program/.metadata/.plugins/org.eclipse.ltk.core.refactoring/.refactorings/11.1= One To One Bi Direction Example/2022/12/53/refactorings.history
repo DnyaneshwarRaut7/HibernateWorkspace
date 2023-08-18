@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.entity.Mbaile&apos; to &apos;Mobile&apos;&#x0D;&#x0A;- Original project: &apos;11.1= One To One Bi Direction Example&apos;&#x0D;&#x0A;- Original element: &apos;com.entity.Mbaile&apos;&#x0D;&#x0A;- Renamed element: &apos;com.entity.Mobile&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Mbaile&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.entity{Mbaile.java[Mbaile" matchStrategy="1" name="Mobile" qualified="false" references="true" similarDeclarations="false" stamp="1672205754318" textual="false" version="1.0"/>
+</session>

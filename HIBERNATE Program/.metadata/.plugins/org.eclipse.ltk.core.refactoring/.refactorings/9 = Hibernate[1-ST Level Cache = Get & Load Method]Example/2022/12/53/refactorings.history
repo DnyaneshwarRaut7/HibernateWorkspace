@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.mdel&apos; to &apos;com.model&apos;&#x0D;&#x0A;- Original project: &apos;9 = Hibernate[1-ST Level Cache = Get &amp; Load Method]Example&apos;&#x0D;&#x0A;- Original element: &apos;9 = Hibernate[1-ST Level Cache = Get &amp; Load Method]Example/src/com.mdel&apos;&#x0D;&#x0A;- Renamed element: &apos;9 = Hibernate[1-ST Level Cache = Get &amp; Load Method]Example/src/com.model&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.mdel&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.mdel" name="com.model" qualified="false" references="true" stamp="1672198361910" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,110 @@
+package com.Service;
+
+import java.util.Scanner;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import com.Entity.Car;
+import com.Entity.Engine;
+import com.Util.HibernateUtil;
+
+public class Serviceimpl implements ServiceI {
+
+	SessionFactory sf = HibernateUtil.getseSessionFactory();
+	Scanner sc = new Scanner(System.in);
+
+	@Override
+	public void addCarAndEngineDetails() {
+		Car car = new Car();
+		Engine engine = new Engine();
+
+		System.out.println("Enter your Car Name:-");
+		car.setCname(sc.next());
+
+		System.out.println("Enter your Car Type:-");
+		car.setCtype(sc.next());
+
+		System.out.println("Enter Engine Name:- ");
+		engine.setEname(sc.next());
+
+		System.out.println("Enter Engine Model:- ");
+		engine.setModel(sc.next());
+
+		car.setEngine(engine);
+		engine.setCar(car);
+
+		Session session = sf.openSession();
+		session.save(car);
+		session.save(engine);
+
+		session.beginTransaction().commit();
+		System.out.println("Data Inserted");
+
+	}
+
+	@Override
+	public void getSingleCarDataWithEngineUsingCarId() {
+
+		Session session = sf.openSession();
+
+		System.out.println("enter your car Id:-");
+		int id = sc.nextInt();
+
+		Car car = session.get(Car.class, id);
+		System.out.println("Car Name " + car.getCname());
+		System.out.println("Car Type " + car.getCtype());
+		System.out.println("Engine Nmae " + car.getEngine().getEname());
+		System.out.println("Engine Model " + car.getEngine().getModel());
+
+	}
+
+	@Override
+	public void getAllCarDataWithEngine() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void getAllCarDatawithEngineUsingEngine() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void updateCarData() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void updateEngineUsingCarId() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void getSingleCarDataUsingEngineId() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void updateEngine() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void updateCarDataUsingEngine() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteCar() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
